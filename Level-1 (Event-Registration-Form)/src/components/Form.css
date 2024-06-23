@@ -1,0 +1,61 @@
+form {
+  padding: 3rem 9%;
+  max-width: 70rem;
+  text-align: center;
+  margin: 1rem auto;
+  margin-bottom: 3rem;
+}
+
+form div {
+  width: 95%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form label {
+  font-size: 1.6rem;
+}
+
+form input {
+  padding: 1.5rem;
+  padding-right: 13rem;
+  margin: 0.7rem 0;
+  margin-left: 2rem;
+  font-size: 1.6rem;
+  border-radius: 0.8rem;
+  color: var(--text-color);
+  background: var(--snd-bg-color);
+}
+
+form .error {
+  text-align: left;
+  font-size: 1.2rem;
+  margin-left: 9rem;
+  margin-top: -0.5rem;
+  color: var(--bg-red);
+}
+
+form .attending-with-guest {
+  padding: 2rem 0;
+}
+
+form .btn {
+  cursor: pointer;
+  margin-top: 2rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+  border-radius: 4rem;
+  padding: 1rem 2.8rem;
+  display: inline-block;
+  transition: 0.5s ease;
+  color: var(--bg-color);
+  letter-spacing: 0.1rem;
+  background: var(--main-color);
+  box-shadow: 0 0 1rem var(--main-color);
+}
+
+form .btn:hover {
+  box-shadow: none;
+}
