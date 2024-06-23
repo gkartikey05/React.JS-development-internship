@@ -1,5 +1,9 @@
 # Event Registration Form
 
+### Deployment Link
+
+[Click here](https://event-registration-form-rose.vercel.app/) to visit the online deployment page.
+
 ### Setup Instruction
 
 1. Clone the project
