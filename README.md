@@ -5,7 +5,7 @@
 1. Clone the project
 
 ```
-git clone https://github.com/gkartikey05/React.JS-development-internship/tree/bdd5135fd931d32a37e21034763b364ccba656e1/Level-2%20(Job-Application-Form)
+git clone https://github.com/gkartikey05/React.JS-development-internship.git
 ```
 
 2. Move into the Desired directory
@@ -15,6 +15,9 @@ cd Level-1\ \(Event-Registration-Form\)/
 ```
 ```
 cd Level-2\ \(Job-Application-Form\)/
+```
+```
+cd Level-3\ \(Server-Form\)/
 ```
 
 3. Install node package manager in your current directory
