@@ -1,0 +1,91 @@
+form {
+  padding: 1rem 0;
+  max-width: 70rem;
+  height: 81vh;
+  text-align: center;
+  margin: 1rem auto;
+  margin-bottom: 3rem;
+}
+
+form .input-box {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form label {
+  font-size: 1.6rem;
+}
+
+form input {
+  width: 60%;
+  margin: 0rem;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  border-radius: 0.8rem;
+  color: var(--text-color);
+  background: var(--snd-bg-color);
+}
+
+form textarea {
+  width: 60%;
+  margin: 0rem;
+  resize: none;
+  height: 15rem;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  border-radius: 0.8rem;
+  color: var(--text-color);
+  background: var(--snd-bg-color);
+}
+
+form .additional-skills {
+  margin-top: 2rem;
+}
+
+form .additional-skills input {
+  margin: 0 1rem;
+  margin-left: 12rem;
+}
+
+form .timing {
+  margin-top: 2rem;
+}
+
+form select {
+  width: 60%;
+  padding: 1.5rem;
+  margin: 0rem;
+  margin-left: 2rem;
+  font-size: 1.6rem;
+  border-radius: 0.8rem;
+  color: var(--text-color);
+  background: var(--snd-bg-color);
+}
+
+form .error {
+  text-align: left;
+  font-size: 1.2rem;
+  margin-left: 28rem;
+  color: var(--bg-red);
+}
+
+form .btn {
+  cursor: pointer;
+  margin-top: 3rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+  border-radius: 4rem;
+  padding: 1rem 2.8rem;
+  display: inline-block;
+  transition: 0.5s ease;
+  color: var(--bg-color);
+  letter-spacing: 0.1rem;
+  background: var(--main-color);
+  box-shadow: 0 0 1rem var(--main-color);
+}
+
+form .btn:hover {
+  box-shadow: none;
+}
